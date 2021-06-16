@@ -1,7 +1,9 @@
-const Layout = () => {
+import styles from '../styles/Layout.module.css';
+
+const Layout = ({ children }) => {
   return (
     <div>
-      <h1>Layout</h1>
+      <main>{children}</main>
     </div>
   );
 };
