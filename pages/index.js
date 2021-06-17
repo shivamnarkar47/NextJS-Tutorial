@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Nav from '../components/Nav';
+import Home from '../components/Home';
 
 export default function Home() {
   return (
@@ -9,7 +10,7 @@ export default function Home() {
         <meta keywords="Coding Programming" />
       </Head>
       <Nav />
-      <h1>Shivam Narkar</h1>
+      <Home />
     </div>
   );
 }
