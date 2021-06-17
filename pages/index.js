@@ -10,7 +10,7 @@ export default function Home() {
         <meta keywords="Coding Programming" />
       </Head>
       <Nav />
-      <Home />
+      <h2>Welcome</h2>
     </div>
   );
 }
