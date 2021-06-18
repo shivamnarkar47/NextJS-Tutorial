@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Nav from '../components/Nav';
 import HomeContainer from '../components/HomeContainer';
+import AboutContainer from '../components/AboutContainer';
 
 export default function Home() {
   return (
@@ -14,6 +15,8 @@ export default function Home() {
       </Head>
       <Nav />
       <HomeContainer/>
+      <AboutContainer/>
+
     </div>
   );
 }

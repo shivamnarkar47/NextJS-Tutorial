@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import homeStyles from '../styles/Home.module.css';
-const Nav = () => {
+const HomeContainer = () => {
   return (
     <div className={homeStyles.container}>
       <h1 className={homeStyles.headingfont}>Hey , myself Shivam Narkar </h1>
@@ -17,4 +17,4 @@ chevron_right
     </div>
   );
 };
-export default Nav;
+export default HomeContainer;
