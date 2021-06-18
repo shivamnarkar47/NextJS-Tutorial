@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Nav from '../components/Nav';
-import Home from '../components/Home';
+import HomeContainer from '../components/HomeContainer';
 
 export default function Home() {
   return (
@@ -10,7 +10,7 @@ export default function Home() {
         <meta keywords="Coding Programming" />
       </Head>
       <Nav />
-      <h2>Welcome</h2>
+      <HomeContainer/>
     </div>
   );
 }
