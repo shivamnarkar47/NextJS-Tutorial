@@ -36,4 +36,9 @@
   background: rgba(255,255,255,0.2);
   backdrop-filter: blur(15px);
   color: #fff;
+  transition: all 0.5s;
+}
+
+.button:hover{
+  background:transparent;
 }
