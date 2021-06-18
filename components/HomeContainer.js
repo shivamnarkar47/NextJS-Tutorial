@@ -1,9 +1,12 @@
 import Link from 'next/link';
-import navStyles from '../styles/Nav.module.css';
+import homeStyles from '../styles/Home.module.css';
 const Nav = () => {
   return (
-    <div>
-      <h1>Welcome to Shivam</h1>
+    <div className={homeStyles.container}>
+      <h1 className={homeStyles.headingfont}>Hey , myself Shivam Narkar </h1>
+      <hr width="500"/>
+      <p>A web dev, UI designer and a confident Programmer</p>
+      
     </div>
   );
 };
