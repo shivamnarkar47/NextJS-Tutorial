@@ -8,6 +8,9 @@ export default function Home() {
       <Head>
         <title>Next JS Tutorial</title>
         <meta keywords="Coding Programming" />
+        <link href="https://fonts.googleapis.com/css2?family=Material+Icons"
+      rel="stylesheet"/>
+
       </Head>
       <Nav />
       <HomeContainer/>

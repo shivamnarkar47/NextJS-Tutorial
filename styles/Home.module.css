@@ -15,3 +15,25 @@
   font-size: 3rem;
   margin: 0;
 }
+
+.knowMore{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: all 0.5s;
+}
+
+.knowMore:hover{
+  transform: translateX(-20px) 
+
+}
+
+.button{
+  padding: 8px 13px;
+  border: none;
+  font-family: 'Poppins';
+  background: rgba(255,255,255,0.2);
+  backdrop-filter: blur(15px);
+  color: #fff;
+}
