@@ -17,7 +17,7 @@ chevron_right
 </span>     
 </div>
       </div>
-      <div className={aboutStyles.image}>
+      <div className={aboutStyles.image} loading="lazy">
         
       </div>
 </div>

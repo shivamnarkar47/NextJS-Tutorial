@@ -10,7 +10,7 @@
 
 .heading{
   font-size: 3rem;
-  padding: 20px;
+  padding: 10px 20px;
   border-bottom: 1px solid #fff;
 }
 
@@ -18,7 +18,7 @@
   width: 25rem;
   height: 25rem;
   border-radius: 20% 40% ;
-  background-image: url('../assets/image.png');
+  background-image: url('../assets/image.webp');
   background-size: cover;
   background-position: center;
   margin: 20px 5rem;
@@ -53,7 +53,16 @@
   
 }
 
+.button:hover{
+  background: transparent;
+}
+
 .link{
   display: flex;
   align-items: center;
+  transition: all 0.5s;
+}
+
+.link:hover{
+  transform: translateX(20px)
 }
