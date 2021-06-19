@@ -7,19 +7,19 @@ const Nav = () => {
         <div className={navStyles.logo}>SN</div>
         <ul>
           <li>
-            <Link href="/">Home</Link>
+            <Link className={navStyles.navlink} href="/">Home</Link>
           </li>
 
           <li>
-            <Link href="/about">About</Link>
+            <Link className={navStyles.navlink} href="/about">About</Link>
           </li>
 
           <li>
-            <Link href="/project">Projects</Link>
+            <Link className={navStyles.navlink} href="/project">Projects</Link>
           </li>
 
           <li>
-            <Link href="/contact">Contact</Link>
+            <Link className={navStyles.navlink} href="/contact">Contact</Link>
           </li>
         </ul>
         <Link href="/resume">

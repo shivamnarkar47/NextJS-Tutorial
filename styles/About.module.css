@@ -13,3 +13,47 @@
   padding: 20px;
   border-bottom: 1px solid #fff;
 }
+
+.image{
+  width: 25rem;
+  height: 25rem;
+  border-radius: 20% 40% ;
+  background-image: url('../assets/image.png');
+  background-size: cover;
+  background-position: center;
+  margin: 20px 5rem;
+
+}
+
+.images{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.para{
+  width: 50vw;
+  font-size: 1.5rem;
+
+}
+
+.content{
+  padding: 2rem;
+}
+
+.button{
+  padding: 8px 13px;
+  border: none;
+  font-family: 'Poppins';
+  background: rgba(255,255,255,0.2);
+  backdrop-filter: blur(15px);
+  color: #fff;
+  transition: all 0.5s;
+  cursor: pointer;
+  
+}
+
+.link{
+  display: flex;
+  align-items: center;
+}

@@ -22,6 +22,11 @@
 
 .nav ul li {
   margin-right: 10px;
+  transition: all 0.5ms;
+}
+
+.nav ul li:hover {
+  border-bottom: 1px solid #fff;
 }
 
 .button {
