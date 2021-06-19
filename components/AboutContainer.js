@@ -6,6 +6,7 @@ const HomeContainer = () => {
   return (
     <div className={aboutStyles.container}>
       <h1 className={aboutStyles.heading}>About Me</h1>
+      <hr className={aboutStyles.hr}/>
       <div className={aboutStyles.images}>
       <div className={aboutStyles.content}>
       <p className={aboutStyles.para}>Hello ! Myself Shivam Narkar, pursuing a Diploma in IT at Vidyalankar Polytechnic, Wadala. Being living in Mumbai since from birth, I have been exploring various things. I am Front-End Developer for around year with clean skills.  </p>

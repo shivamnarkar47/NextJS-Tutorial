@@ -5,22 +5,28 @@
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1920' height='1080' preserveAspectRatio='none' viewBox='0 0 1920 1080'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1027%26quot%3b)' fill='none'%3e%3crect width='1920' height='1080' x='0' y='0' fill='rgba(32%2c 32%2c 32%2c 1)'%3e%3c/rect%3e%3cpath d='M 0%2c943 C 192%2c817.4 576%2c393.8 960%2c315 C 1344%2c236.2 1728%2c502.2 1920%2c549L1920 1080L0 1080z' fill='rgba(36%2c 36%2c 36%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1027'%3e%3crect width='1920' height='1080' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
   background-attachment: fixed;
   color: #fff;
-  padding: 20px;
+  padding: 10px;
 }
 
 .heading{
   font-size: 3rem;
-  padding: 10px 20px;
-  border-bottom: 1px solid #fff;
+  line-height: 0;
+  padding: 2rem 5rem;
+}
+
+.hr{
+  margin-left: 5rem;
+  width: 70vw
 }
 
 .image{
-  width: 25rem;
-  height: 25rem;
+  width: 24rem;
+  height: 24rem;
   border-radius: 20% 40% ;
   background-image: url('../assets/image.webp');
   background-size: cover;
   background-position: center;
+  box-shadow: 0 0 20px #111111;
   margin: 20px 5rem;
 
 }
@@ -28,12 +34,14 @@
 .images{
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
+  padding: 2rem 0;
 }
 
 .para{
-  width: 50vw;
+  width: 40vw;
   font-size: 1.5rem;
+  margin-right: 3rem;
 
 }
 
